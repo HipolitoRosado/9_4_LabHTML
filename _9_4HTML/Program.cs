@@ -18,7 +18,7 @@ namespace _9_4HTML
     class UnorderedList
     {
         public const string open = "<ul>";
-        public const string close = "</ul";
+        public const string close = "</ul>";
         public string CreateListItem(string text)
         {
             string open = "<li>\n";
@@ -47,7 +47,7 @@ namespace _9_4HTML
 
         {
 
-            string filename = "c://weblogs//9_4Lab.html";
+            string filename = "c://weblog//9_4Lab.html";
             Header header = new Header();
             UnorderedList list = new UnorderedList();
             StringBuilder sb = new StringBuilder();
